@@ -536,5 +536,3 @@ const square = document.querySelector(".square");
 square.addEventListener('click', function (e) {
 	alert(window.innerWidth);
 });
-
-alert(1);
