@@ -540,4 +540,4 @@ square.addEventListener('click', function (e) {
 });
 
 
-alert(3);
+alert(4);
