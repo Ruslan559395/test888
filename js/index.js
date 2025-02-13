@@ -530,7 +530,7 @@ window.addEventListener('scroll', function () {
 });
 //-------------------------------------------------------------
 
-alert(111);
+
 
 
 const square = document.querySelector(".square");
@@ -538,3 +538,6 @@ const square = document.querySelector(".square");
 square.addEventListener('click', function (e) {
 	alert(window.innerWidth);
 });
+
+
+alert(2);
