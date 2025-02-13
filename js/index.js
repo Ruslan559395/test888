@@ -530,6 +530,8 @@ window.addEventListener('scroll', function () {
 });
 //-------------------------------------------------------------
 
+alert(111);
+
 
 const square = document.querySelector(".square");
 
