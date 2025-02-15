@@ -37,6 +37,10 @@
 	-webkit-tap-highlight-color: transparent;
 }
 
+button {
+	-webkit-tap-highlight-color: transparent;
+}
+
  @import url(color.css) screen and (color);
  
  html,
