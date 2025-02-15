@@ -34,12 +34,17 @@
  
  a {
 	cursor: pointer;
-	-webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 button {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+div {
 	-webkit-tap-highlight-color: transparent;
 }
+
 
  @import url(color.css) screen and (color);
  
