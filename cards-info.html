@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<title>Cards-info</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="css/iconsfont.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/cards-info.css">
+	<link rel="stylesheet" media="screen and (color)" href="example.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div class="wrapper-cards-info">
+		<div class="cards-info">
+			<div class="cards-info__container _container">
+				<div class="cards-info__header header-info" id="cards-info__header">
+					<div class="header-info__row">
+						<div class="header-info__breadcrumbs breadcrumbs">
+							<a href="index.html" class="breadcrumbs__back">
+								<svg width="26px" height="25px" viewBox="0 -6.5 36 36" version="1.1"
+									xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g id="rrr" transform="translate(-342.000000, -159.000000)" fill="#252528"
+											fill-rule="nonzero">
+											<g id="square-filled" transform="translate(50.000000, 120.000000)">
+												<path
+													d="M317.108012,39.2902857 L327.649804,49.7417043 L327.708994,49.7959169 C327.889141,49.9745543 327.986143,50.2044182 328,50.4382227 L328,50.5617773 C327.986143,50.7955818 327.889141,51.0254457 327.708994,51.2040831 L327.6571,51.2479803 L317.108012,61.7097143 C316.717694,62.0967619 316.084865,62.0967619 315.694547,61.7097143 C315.30423,61.3226668 315.30423,60.6951387 315.694547,60.3080911 L324.702666,51.3738496 L292.99947,51.3746291 C292.447478,51.3746291 292,50.9308997 292,50.3835318 C292,49.8361639 292.447478,49.3924345 292.99947,49.3924345 L324.46779,49.3916551 L315.694547,40.6919089 C315.30423,40.3048613 315.30423,39.6773332 315.694547,39.2902857 C316.084865,38.9032381 316.717694,38.9032381 317.108012,39.2902857 Z M327.115357,50.382693 L316.401279,61.0089027 L327.002151,50.5002046 L327.002252,50.4963719 L326.943142,50.442585 L326.882737,50.382693 L327.115357,50.382693 Z"
+													id="left-arrow"
+													transform="translate(310.000000, 50.500000) scale(-1, 1) translate(-310.000000, -50.500000) ">
+												</path>
+											</g>
+										</g>
+									</g>
+								</svg></a>
+							<ul class="breadcrumbs__list">
+								<li><a href="index.html" class="breadcrumbs__item">Главная</a></li>
+								<li><a href="#" class="breadcrumbs__item">Обувь</a></li>
+								<li><a href="/" class="breadcrumbs__item">Брендовая</a></li>
+							</ul>
+						</div>
+						<button type="button" class="header-info__like"><img src="img/icons/heard.svg" id="likeTransparent"
+								alt=""><img src="img/icons/heard-red.svg" id="likeRed" alt=""></button>
+						<button type="button" class="header-info__share"><img src="img/icons/share.svg" alt="">
+							<div id="tooltipShare" class="tooltip" hidden>
+								<div class="tooltipShare__body">
+									<div class="tooltipShare__text">Поделиться</div>
+								</div>
+							</div>
+						</button>
+						<button type="button" class="header-info__complaint"><img src="img/icons/complaint.svg" alt="">
+							<div id="tooltipComplaint" class="tooltip" hidden>
+								<div class="tooltipComplaint__body">
+									<div class="tooltipComplaint__text">Пожаловаться</div>
+								</div>
+							</div>
+						</button>
+					</div>
+				</div>
+				<div class="cards-info__body body-info">
+					<div class="body-info__swiper">
+						<div class="swiper__preview">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="img/sneakers/01.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/02.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/03.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/04.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/05.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/06.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/01.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/02.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/03.jpg" alt=""></div>
+							</div>
+							<div class="swiper-prev"><svg width="30px" height="30px" viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M6.4569 9.73276C6.17123 10.0327 6.18281 10.5074 6.48276 10.7931C6.78271 11.0788 7.25744 11.0672 7.5431 10.7672L6.4569 9.73276ZM12.5431 5.51724C12.8288 5.21729 12.8172 4.74256 12.5172 4.4569C12.2173 4.17123 11.7426 4.18281 11.4569 4.48276L12.5431 5.51724ZM12.5431 4.48276C12.2574 4.18281 11.7827 4.17123 11.4828 4.4569C11.1828 4.74256 11.1712 5.21729 11.4569 5.51724L12.5431 4.48276ZM16.4569 10.7672C16.7426 11.0672 17.2173 11.0788 17.5172 10.7931C17.8172 10.5074 17.8288 10.0327 17.5431 9.73276L16.4569 10.7672ZM12.75 5C12.75 4.58579 12.4142 4.25 12 4.25C11.5858 4.25 11.25 4.58579 11.25 5H12.75ZM11.25 19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19H11.25ZM7.5431 10.7672L12.5431 5.51724L11.4569 4.48276L6.4569 9.73276L7.5431 10.7672ZM11.4569 5.51724L16.4569 10.7672L17.5431 9.73276L12.5431 4.48276L11.4569 5.51724ZM11.25 5V19H12.75V5H11.25Z"
+										fill="#000" />
+								</svg></div>
+							<div class="swiper-next"><svg width="30px" height="30px" viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M6.4569 9.73276C6.17123 10.0327 6.18281 10.5074 6.48276 10.7931C6.78271 11.0788 7.25744 11.0672 7.5431 10.7672L6.4569 9.73276ZM12.5431 5.51724C12.8288 5.21729 12.8172 4.74256 12.5172 4.4569C12.2173 4.17123 11.7426 4.18281 11.4569 4.48276L12.5431 5.51724ZM12.5431 4.48276C12.2574 4.18281 11.7827 4.17123 11.4828 4.4569C11.1828 4.74256 11.1712 5.21729 11.4569 5.51724L12.5431 4.48276ZM16.4569 10.7672C16.7426 11.0672 17.2173 11.0788 17.5172 10.7931C17.8172 10.5074 17.8288 10.0327 17.5431 9.73276L16.4569 10.7672ZM12.75 5C12.75 4.58579 12.4142 4.25 12 4.25C11.5858 4.25 11.25 4.58579 11.25 5H12.75ZM11.25 19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19H11.25ZM7.5431 10.7672L12.5431 5.51724L11.4569 4.48276L6.4569 9.73276L7.5431 10.7672ZM11.4569 5.51724L16.4569 10.7672L17.5431 9.73276L12.5431 4.48276L11.4569 5.51724ZM11.25 5V19H12.75V5H11.25Z"
+										fill="#000" />
+								</svg></div>
+						</div>
+						<div class="swiper__main">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="img/sneakers/01.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/02.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/03.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/04.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/05.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/06.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/01.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/02.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/03.jpg" alt=""></div>
+							</div>
+							<div class="swiper-prev swiper-prev__left"><svg width="30px" height="30px" viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M6.4569 9.73276C6.17123 10.0327 6.18281 10.5074 6.48276 10.7931C6.78271 11.0788 7.25744 11.0672 7.5431 10.7672L6.4569 9.73276ZM12.5431 5.51724C12.8288 5.21729 12.8172 4.74256 12.5172 4.4569C12.2173 4.17123 11.7426 4.18281 11.4569 4.48276L12.5431 5.51724ZM12.5431 4.48276C12.2574 4.18281 11.7827 4.17123 11.4828 4.4569C11.1828 4.74256 11.1712 5.21729 11.4569 5.51724L12.5431 4.48276ZM16.4569 10.7672C16.7426 11.0672 17.2173 11.0788 17.5172 10.7931C17.8172 10.5074 17.8288 10.0327 17.5431 9.73276L16.4569 10.7672ZM12.75 5C12.75 4.58579 12.4142 4.25 12 4.25C11.5858 4.25 11.25 4.58579 11.25 5H12.75ZM11.25 19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19H11.25ZM7.5431 10.7672L12.5431 5.51724L11.4569 4.48276L6.4569 9.73276L7.5431 10.7672ZM11.4569 5.51724L16.4569 10.7672L17.5431 9.73276L12.5431 4.48276L11.4569 5.51724ZM11.25 5V19H12.75V5H11.25Z"
+										fill="#000" />
+								</svg></div>
+							<div class="swiper-next swiper-next__right"><svg width="30px" height="30px" viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M6.4569 9.73276C6.17123 10.0327 6.18281 10.5074 6.48276 10.7931C6.78271 11.0788 7.25744 11.0672 7.5431 10.7672L6.4569 9.73276ZM12.5431 5.51724C12.8288 5.21729 12.8172 4.74256 12.5172 4.4569C12.2173 4.17123 11.7426 4.18281 11.4569 4.48276L12.5431 5.51724ZM12.5431 4.48276C12.2574 4.18281 11.7827 4.17123 11.4828 4.4569C11.1828 4.74256 11.1712 5.21729 11.4569 5.51724L12.5431 4.48276ZM16.4569 10.7672C16.7426 11.0672 17.2173 11.0788 17.5172 10.7931C17.8172 10.5074 17.8288 10.0327 17.5431 9.73276L16.4569 10.7672ZM12.75 5C12.75 4.58579 12.4142 4.25 12 4.25C11.5858 4.25 11.25 4.58579 11.25 5H12.75ZM11.25 19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19H11.25ZM7.5431 10.7672L12.5431 5.51724L11.4569 4.48276L6.4569 9.73276L7.5431 10.7672ZM11.4569 5.51724L16.4569 10.7672L17.5431 9.73276L12.5431 4.48276L11.4569 5.51724ZM11.25 5V19H12.75V5H11.25Z"
+										fill="#000" />
+								</svg></div>
+						</div>
+						<div class="swiper__popup" id="popup">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="img/sneakers/01.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/02.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/03.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/04.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/05.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/06.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/01.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/02.jpg" alt=""></div>
+								<div class="swiper-slide"><img src="img/sneakers/03.jpg" alt=""></div>
+							</div>
+							<div class="swiper-prev swiper-prev__left swiper-prev-popup"><svg width="30px" height="30px"
+									viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M6.4569 9.73276C6.17123 10.0327 6.18281 10.5074 6.48276 10.7931C6.78271 11.0788 7.25744 11.0672 7.5431 10.7672L6.4569 9.73276ZM12.5431 5.51724C12.8288 5.21729 12.8172 4.74256 12.5172 4.4569C12.2173 4.17123 11.7426 4.18281 11.4569 4.48276L12.5431 5.51724ZM12.5431 4.48276C12.2574 4.18281 11.7827 4.17123 11.4828 4.4569C11.1828 4.74256 11.1712 5.21729 11.4569 5.51724L12.5431 4.48276ZM16.4569 10.7672C16.7426 11.0672 17.2173 11.0788 17.5172 10.7931C17.8172 10.5074 17.8288 10.0327 17.5431 9.73276L16.4569 10.7672ZM12.75 5C12.75 4.58579 12.4142 4.25 12 4.25C11.5858 4.25 11.25 4.58579 11.25 5H12.75ZM11.25 19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19H11.25ZM7.5431 10.7672L12.5431 5.51724L11.4569 4.48276L6.4569 9.73276L7.5431 10.7672ZM11.4569 5.51724L16.4569 10.7672L17.5431 9.73276L12.5431 4.48276L11.4569 5.51724ZM11.25 5V19H12.75V5H11.25Z"
+										fill="#000" />
+								</svg></div>
+							<div class="swiper-next swiper-next__right swiper-next-popup"><svg width="30px" height="30px"
+									viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M6.4569 9.73276C6.17123 10.0327 6.18281 10.5074 6.48276 10.7931C6.78271 11.0788 7.25744 11.0672 7.5431 10.7672L6.4569 9.73276ZM12.5431 5.51724C12.8288 5.21729 12.8172 4.74256 12.5172 4.4569C12.2173 4.17123 11.7426 4.18281 11.4569 4.48276L12.5431 5.51724ZM12.5431 4.48276C12.2574 4.18281 11.7827 4.17123 11.4828 4.4569C11.1828 4.74256 11.1712 5.21729 11.4569 5.51724L12.5431 4.48276ZM16.4569 10.7672C16.7426 11.0672 17.2173 11.0788 17.5172 10.7931C17.8172 10.5074 17.8288 10.0327 17.5431 9.73276L16.4569 10.7672ZM12.75 5C12.75 4.58579 12.4142 4.25 12 4.25C11.5858 4.25 11.25 4.58579 11.25 5H12.75ZM11.25 19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19H11.25ZM7.5431 10.7672L12.5431 5.51724L11.4569 4.48276L6.4569 9.73276L7.5431 10.7672ZM11.4569 5.51724L16.4569 10.7672L17.5431 9.73276L12.5431 4.48276L11.4569 5.51724ZM11.25 5V19H12.75V5H11.25Z"
+										fill="#000" />
+								</svg></div>
+							<div class="swiper-button-close"><img src="img/icons/close.svg" alt=""></div>
+						</div>
+					</div>
+					<div class="body-info__main main-info">
+						<div class="main-info__title">Кроссовки летние</div>
+						<div href="" class="main-info__common-inf common-inf">
+							<div href="" class="common-inf__rating rating">
+								<div class="rating__star"><img src="img/icons/star.svg" alt=""></div>
+								<a href="" class="rating__count">4.3</a>
+							</div>
+							<a href="" class="common-inf__count-review _underscore"><span>3297</span><span> оценок</span></a>
+						</div>
+						<div class="main-info__colors colors">
+							<div class="colors__name">
+								<span>Цвет:</span><span> серый,</span><span> чёрный,</span><span> белый,</span><span>
+									коричневый,</span><span> оранжевый,</span><span> синий</span>
+							</div>
+							<div class="colors__slider">
+								<div class="swiper-wrapper">
+									<div data-tooltip="img/sneakers/01.jpg, 1199 Ꝑ, 9999 Ꝑ,36,37,38,39"
+										class="swiper-slide swiper-slide_1 swiper-tooltip"></div>
+									<div data-tooltip="img/sneakers/02.jpg, 10676 Ꝑ, 11999 Ꝑ,37,38,39,40,41,42"
+										class="swiper-slide swiper-slide_2 swiper-tooltip"></div>
+									<div data-tooltip="img/sneakers/03.jpg, 3676 Ꝑ, 11999 Ꝑ,36,37,38,39,40,41,42"
+										class="swiper-slide swiper-slide_3 swiper-tooltip"></div>
+									<div data-tooltip="img/sneakers/04.jpg, 7676 Ꝑ, 11999 Ꝑ,36,37,38,39,40"
+										class="swiper-slide swiper-slide_4 swiper-tooltip"></div>
+									<div data-tooltip="img/sneakers/05.jpg, 6769 Ꝑ, 11999 Ꝑ,36,37,38,39,40"
+										class="swiper-slide swiper-slide_5 swiper-tooltip"></div>
+									<div data-tooltip="img/sneakers/06.jpg, 3970 Ꝑ, 11999 Ꝑ,36,37,38,39,40"
+										class="swiper-slide swiper-slide_6 swiper-tooltip"></div>
+								</div>
+								<div class="swiper-prev swiper-prev__left swiper-prev-colors"><svg width="20px" height="20px"
+										viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M6.4569 9.73276C6.17123 10.0327 6.18281 10.5074 6.48276 10.7931C6.78271 11.0788 7.25744 11.0672 7.5431 10.7672L6.4569 9.73276ZM12.5431 5.51724C12.8288 5.21729 12.8172 4.74256 12.5172 4.4569C12.2173 4.17123 11.7426 4.18281 11.4569 4.48276L12.5431 5.51724ZM12.5431 4.48276C12.2574 4.18281 11.7827 4.17123 11.4828 4.4569C11.1828 4.74256 11.1712 5.21729 11.4569 5.51724L12.5431 4.48276ZM16.4569 10.7672C16.7426 11.0672 17.2173 11.0788 17.5172 10.7931C17.8172 10.5074 17.8288 10.0327 17.5431 9.73276L16.4569 10.7672ZM12.75 5C12.75 4.58579 12.4142 4.25 12 4.25C11.5858 4.25 11.25 4.58579 11.25 5H12.75ZM11.25 19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19H11.25ZM7.5431 10.7672L12.5431 5.51724L11.4569 4.48276L6.4569 9.73276L7.5431 10.7672ZM11.4569 5.51724L16.4569 10.7672L17.5431 9.73276L12.5431 4.48276L11.4569 5.51724ZM11.25 5V19H12.75V5H11.25Z"
+											fill="#000" />
+									</svg></div>
+								<div class="swiper-next swiper-next__right swiper-next-colors"><svg width="20px" height="20px"
+										viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M6.4569 9.73276C6.17123 10.0327 6.18281 10.5074 6.48276 10.7931C6.78271 11.0788 7.25744 11.0672 7.5431 10.7672L6.4569 9.73276ZM12.5431 5.51724C12.8288 5.21729 12.8172 4.74256 12.5172 4.4569C12.2173 4.17123 11.7426 4.18281 11.4569 4.48276L12.5431 5.51724ZM12.5431 4.48276C12.2574 4.18281 11.7827 4.17123 11.4828 4.4569C11.1828 4.74256 11.1712 5.21729 11.4569 5.51724L12.5431 4.48276ZM16.4569 10.7672C16.7426 11.0672 17.2173 11.0788 17.5172 10.7931C17.8172 10.5074 17.8288 10.0327 17.5431 9.73276L16.4569 10.7672ZM12.75 5C12.75 4.58579 12.4142 4.25 12 4.25C11.5858 4.25 11.25 4.58579 11.25 5H12.75ZM11.25 19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19H11.25ZM7.5431 10.7672L12.5431 5.51724L11.4569 4.48276L6.4569 9.73276L7.5431 10.7672ZM11.4569 5.51724L16.4569 10.7672L17.5431 9.73276L12.5431 4.48276L11.4569 5.51724ZM11.25 5V19H12.75V5H11.25Z"
+											fill="#000" />
+									</svg></div>
+							</div>
+							<div id="tooltip" class="tooltip" hidden>
+								<div class="tooltip__body">
+									<div class="tooltip__image"><img id="tooltipImage" src="#" alt="Картинка"></div>
+									<div class="tooltip__price price">
+										<div class="price__current price__current_red"><span id="tooltipPriceCurrent"></span>
+										</div>
+										<div class="price__previous"><span id="tooltipPricePrevious"></span></div>
+									</div>
+									<div class="tooltip__sizes-table sizes-table-tooltip">
+										<ul class="sizes-table-tooltip__list">
+											<li>
+												<pre class="sizes-table-tooltip__link"></pre>
+											</li>
+											<li>
+												<pre class="sizes-table-tooltip__link"></pre>
+											</li>
+											<li>
+												<pre class="sizes-table-tooltip__link"></pre>
+											</li>
+											<li>
+												<pre class="sizes-table-tooltip__link"></pre>
+											</li>
+											<li>
+												<pre class="sizes-table-tooltip__link"></pre>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-info__sizes-table sizes-table">
+							<div class="sizes-table__title _underscore">Таблица размеров</div>
+							<ul class="sizes-table__list">
+								<li><a href="" data-size_table_info="true,35,22-22.5"
+										class="sizes-table__link sizesTableTooltip">36</a></li>
+								<li><a href="" data-size_table_info="true,36,22-22.5"
+										class="sizes-table__link sizesTableTooltip">37</a></li>
+								<li><a href="" data-size_table_info="true,37,22-22.5"
+										class="sizes-table__link sizesTableTooltip">38</a></li>
+								<li><a href="" data-size_table_info="true,38,22-22.5"
+										class="sizes-table__link sizesTableTooltip">39</a></li>
+								<li><a href="" data-size_table_info="true,39,22-22.5"
+										class="sizes-table__link sizesTableTooltip">40</a></li>
+								<li><a href="" data-size_table_info="false,40,22-22.5"
+										class="sizes-table__link sizesTableTooltip">41</a></li>
+								<li><a href="" data-size_table_info="true,41,22-22.5"
+										class="sizes-table__link sizesTableTooltip">42</a></li>
+								<li><a href="" data-size_table_info="false,42,22-22.5"
+										class="sizes-table__link sizesTableTooltip">43</a></li>
+								<li><a href="" data-size_table_info="true,43,22-22.5"
+										class="sizes-table__link sizesTableTooltip">44</a></li>
+								<li><a href="" data-size_table_info="true,44,22-22.5"
+										class="sizes-table__link sizesTableTooltip">45</a></li>
+								<li><a href="" data-size_table_info="true,45,22-22.5"
+										class="sizes-table__link sizesTableTooltip">46</a></li>
+								<li><a href="" data-size_table_info="true,46,22-22.5"
+										class="sizes-table__link sizesTableTooltip">47</a></li>
+							</ul>
+							<div id="tooltip2" class="tooltip" hidden>
+								<div class="tooltip2__body">
+									<div class="tooltip2__delivery"><span id="tooltip2Delivery"></span></div>
+									<div class="tooltip2__russiaSize"><span>Российский размер</span><span
+											id="tooltip2RussiaSize"></span></div>
+									<div class="tooltip2__footLength"><span>Длина стопы, в см</span><span
+											id="tooltip2FootLength"></span></div>
+								</div>
+							</div>
+						</div>
+						<div class="main-info__options options">
+							<div class="options__vendor-code vendor-code">
+								<div class="vendor-code__name name-style"><span>Артикул</span>
+									<div class="name-style__underscore"></div>
+								</div>
+								<div class="vendor-code__desk desk-style"><span>536578456</span></div>
+							</div>
+							<div class="options__composition composition">
+								<div class="composition__name name-style"><span>Состав</span>
+									<div class="name-style__underscore"></div>
+								</div>
+								<div class="composition__desk desk-style"><span>замша; текстиль</span></div>
+							</div>
+							<div class="options__season season">
+								<div class="season__name name-style"><span>Сезон</span>
+									<div class="name-style__underscore"></div>
+								</div>
+								<div class="season__desk desk-style"><span>круглогодичный; демисезон; лето</span></div>
+							</div>
+							<div class="options__material-sole material-sole">
+								<div class="material-sole__name name-style"><span>Материал подошвы обуви</span>
+									<div class="name-style__underscore"></div>
+								</div>
+								<div class="material-sole__desk desk-style"><span>ПВХ; резина</span></div>
+							</div>
+							<div class="options__material-lining material-lining">
+								<div class="material-lining__name name-style"><span>Материал подкладки обуви</span>
+									<div class="name-style__underscore"></div>
+								</div>
+								<div class="material-lining__desk desk-style"><span>текстиль</span></div>
+							</div>
+							<div class="options__shoe-width shoe-width">
+								<div class="shoe-width__name name-style"><span>Полнота обуви (EUR)</span>
+									<div class="name-style__underscore"></div>
+								</div>
+								<div class="shoe-width__desk desk-style"><span>F (6)</span></div>
+							</div>
+						</div>
+						<a href="#cards-info__header" class="all-characteristics _underscore">Все характеристики и
+							описание</a>
+					</div>
+					<div class="body-info__aside-wrap">
+						<div class="body-info__aside aside-info">
+							<div class="aside-info__price-block price-block">
+								<div class="price-block__title"></div>
+								<div class="price-block__price-wrap price">
+									<div class="price__current price__current_fz"><span>5677 Ꝑ </span></div>
+									<div class="price__previous price__previous_fz"><span>7870 Ꝑ</span></div>
+								</div>
+								<button class="price-block__add-basket"><span>Добавить в корзину</span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="square"></div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
