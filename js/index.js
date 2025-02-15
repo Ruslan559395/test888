@@ -540,4 +540,11 @@ square.addEventListener('click', function (e) {
 });
 
 
-alert(977);
+const ghghghgh = document.querySelector(".price-block__add-basket");
+
+ghghghgh.addEventListener('click', function (e) {
+	ghghghgh.style.backgroundColor = "transparent";
+});
+
+
+alert(2);
