@@ -536,4 +536,4 @@ square.addEventListener('click', function (e) {
 	alert(window.innerWidth);
 });
 
-alert(121);
+alert(121789);
