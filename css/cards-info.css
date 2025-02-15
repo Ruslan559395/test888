@@ -750,7 +750,7 @@ body._pc .all-characteristics:hover {
 	color: rgb(237, 101, 101);
 }
 
-._underscore:hover::before {
+body._pc ._underscore:hover::before {
 	border-bottom: 1px dashed rgb(237, 101, 101);
 }
 
