@@ -530,21 +530,10 @@ window.addEventListener('scroll', function () {
 });
 //-------------------------------------------------------------
 
-
-
-
 const square = document.querySelector(".square");
 
 square.addEventListener('click', function (e) {
 	alert(window.innerWidth);
 });
 
-
-const ghghghgh = document.querySelector(".price-block__add-basket");
-
-ghghghgh.addEventListener('click', function (e) {
-	ghghghgh.style.backgroundColor = "transparent";
-});
-
-
-alert(2);
+alert(12);
